@@ -1,0 +1,50 @@
+body {
+  font-family: 'Abel', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHdoaXRlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner {
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    height: 100px;
+  }
+  
+  .banner h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+
+  h3 {
+   
+    margin: 0 auto;
+  }
+  
+.col {
+  padding: 8px;
+ 
+}
+
+.card {
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 8px;
+  transition: transform .2s;
+}
+
+.card:hover {
+  border-top-color: lightblue;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+.container-title {
+ display: flex;
+  /* align-items: center; */
+
+}
